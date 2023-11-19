@@ -1,0 +1,55 @@
+body{
+  background-color: #24353F;
+}
+
+h1, #signUpBtn a
+, #loginBtn a{
+  color: #17A2B8 !important;
+}
+#signUpBtn, #loginBtn{
+  border: 1px solid #17A2B8 !important;
+
+}
+#signUpBtn:hover, #loginBtn:hover{
+  background-color: #17A2B8 !important;
+}
+#signUpBtn:hover a,
+#loginBtn:hover a{
+  color: #fff !important;
+
+}
+.form-control{
+background-color: transparent;
+border: 1px solid #dfcfd0;
+border-radius: .25rem;
+}
+.form-control:focus{
+  outline-color: #1ab1c8;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+input, textarea{
+  color: #fff !important;
+}
+input::placeholder{
+  color: #dfcfd0 !important;
+}
+
+a{
+  text-decoration: none;
+}
+.form-content, nav{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+ul li{
+  list-style: none;
+}
+.welcomeMessage{
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+
+}
+.group{
+  height: 100vh;
+}
